@@ -1,0 +1,24 @@
+把数据分为两类，discovery cohert and test cohert
+统计每类有多少数据
+对每种方法进行：
+lr，svm，random forest， xgboost，dnn，native Bayes (NB)
+1. 选择合适的调参方法，进行挑参we train and tune hyper parameters
+2. 对两类数据统计他们的Accuracy
+Precision
+Recall
+F1 score
+AUROC
+
+
+对于l1:
+Score with L1 penalty: accuracy:0.8112449799196787 precision:0.6666666666666666 recall:0.08163265306122448 f1:0.14545454545454545 roc_auc:0.5358163265306123
+Score with Elastic-Net penalty: accuracy:0.8152610441767069 precision:0.7142857142857143 recall:0.10204081632653061 f1:0.17857142857142858 roc_auc:0.5460204081632652
+Score with L2 penalty: accuracy:0.8192771084337349 precision:0.7 recall:0.14285714285714285 f1:0.23728813559322035 roc_auc:0.5639285714285714
+
+Score with L1 penalty: accuracy:0.8032128514056225 precision:0.0 recall:0.0 f1:0.0 roc_auc:0.5
+Score with Elastic-Net penalty: accuracy:0.8032128514056225 precision:0.0 recall:0.0 f1:0.0 roc_auc:0.5
+Score with L2 penalty: accuracy:0.8032128514056225 precision:0.5 recall:0.02040816326530612 f1:0.039215686274509796 roc_auc:0.5077040816326531
+
+Score with L1 penalty: accuracy:0.8032128514056225 precision:0.0 recall:0.0 f1:0.0 roc_auc:0.5
+Score with Elastic-Net penalty: accuracy:0.8032128514056225 precision:0.0 recall:0.0 f1:0.0 roc_auc:0.5
+Score with L2 penalty: accuracy:0.8032128514056225 precision:0.0 recall:0.0 f1:0.0 roc_auc:0.5
