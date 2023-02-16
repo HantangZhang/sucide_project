@@ -22,3 +22,8 @@ Score with L2 penalty: accuracy:0.8032128514056225 precision:0.5 recall:0.020408
 Score with L1 penalty: accuracy:0.8032128514056225 precision:0.0 recall:0.0 f1:0.0 roc_auc:0.5
 Score with Elastic-Net penalty: accuracy:0.8032128514056225 precision:0.0 recall:0.0 f1:0.0 roc_auc:0.5
 Score with L2 penalty: accuracy:0.8032128514056225 precision:0.0 recall:0.0 f1:0.0 roc_auc:0.5
+
+数据的处理：
+1. divide data to 2 categories, one is binary, another one is 0-3(original)
+2. after coulum '1 Psychiatric', data has some missing places, so i only selected the columns before this column as features
+
