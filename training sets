@@ -1,0 +1,15 @@
+evaluation metrics:
+
+Accuracy: 1 is shorter than 0 , so it's not proper
+precision（important): i would like to predict how many people that already to attempt to sucide or did more, precision is to evaluate people who is predicted to attempt sucide, who is true sucide in
+real label
+recall（important): all people who labeled 1, how many people can be predicted correctly by model
+f1-score(important)
+auc_roc(best):
+
+summary: auc-roc is a comprehensive evaluation metrics that can fully reflect the performance of the model, but precison and recall can better reflect the ability of the model to find
+patients with sucidal tendencies.
+
+
+
+lr1

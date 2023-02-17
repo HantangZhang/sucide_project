@@ -19,13 +19,21 @@ divide into 2 categories
 Category 1: High Risk
 
 Those with suicidal ideation (having thoughts of suicide) and those with a suicide plan (having a plan to carry out suicide) can be grouped into a high-risk category as they are actively considering and planning suicide.
+
 Category 2: Past Attempts/ Hospitalizations
 
 Those with a history of suicide attempt(s) and those with hospitalization(s) for suicidality can be grouped into a second category as they have a history of suicidal behavior but are not currently at an elevated risk of suicide.
 '''
 
 
-数据的处理：
+data processing：
 1. divide data to 2 categories, one is binary, another one is 0-3(original)
 2. after coulum '1 Psychiatric', data has some missing places, so i only selected the columns before this column as features
+
+
+Training todo:
+1. deciding the most important evaluation metrics. （done）
+
+Logistic Regresion:
+1. deciding the best parameter currently, record the evaluation metrics
 
