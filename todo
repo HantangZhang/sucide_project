@@ -25,6 +25,9 @@ Category 2: Past Attempts/ Hospitalizations
 Those with a history of suicide attempt(s) and those with hospitalization(s) for suicidality can be grouped into a second category as they have a history of suicidal behavior but are not currently at an elevated risk of suicide.
 '''
 
+question recording:
+1. different random_state has different result, f1:0.13-0.2 (solution: tring use unified random state)
+
 
 data processing：
 1. divide data to 2 categories, one is binary, another one is 0-3(original)
@@ -35,5 +38,11 @@ Training todo:
 1. deciding the most important evaluation metrics. （done）
 
 Logistic Regresion:
-1. deciding the best parameter currently, record the evaluation metrics
+1. deciding the best parameter currently, record the evaluation metrics （done）
+
+
+SVM (done)
+
+
+
 
